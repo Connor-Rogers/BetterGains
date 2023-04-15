@@ -1,1 +1,4 @@
-#Include Login, Security Features, Logout
+from flask import Blueprint
+# Include Login, Security Features, Logout
+
+main = Blueprint("main")
